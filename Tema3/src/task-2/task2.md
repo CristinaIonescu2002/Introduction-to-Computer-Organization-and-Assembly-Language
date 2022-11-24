@@ -1,4 +1,4 @@
-## Task 2 - Mașina cu Stivă 25p
+## Task 2 - Mașina cu Stivă
 
 Mushu trebuie să ajungă la Leu, dar este împiedicat de portarul cel rău de la Precis. 
 Acesta îi pune în față o [Masina cu stiva](https://en.wikipedia.org/wiki/Stack_machine), adică o mașina care știe să folosească doar stiva, prin instrucțiuni de tip push și pop, pentru a lucra cu memoria.
