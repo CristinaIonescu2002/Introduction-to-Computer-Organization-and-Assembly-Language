@@ -1,4 +1,4 @@
-# Task 3 Sortare de cuvinte 25p
+# Task 3 Sortare de cuvinte
 
 Luna a mers împreună cu Sursee până în Rectorat dar acum trebuie sa ajungă îm Regie.
 Luna are de completat un rebus folosind cuvintele unui text și vă roagă să o ajutați prin a sorta cuvintele în funcție de lungime ca să îi fie mai ușor.
