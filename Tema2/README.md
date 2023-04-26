@@ -1,6 +1,6 @@
 ## Ionescu Cristina
-# TASK1:
-## simple.asm
+## TASK1:
+### simple.asm
 - imi iau un registru pe care il fac 0 si pe care o sa il folosesc pe post de contor pentru forul care va urma (eax)
 - mai iau un registru pe care il fac tot 0 si pe care il folosesc pentru a retine cate o litera din cuvant
 - labelul 'forloop' care este prima parte din for
@@ -10,8 +10,8 @@
 - dupa ce am luat si modificat litera din cuvant, in 'continuare' punem litera in 'enc_string' la pozitia corespunzatoare si crestem contorul
 - daca s-a ajuns la finalul cuvantului mergem in 'exit', daca nu reluam 'forloop'-ul
 
-# TASK2:
-## points-distance.asm
+## TASK2:
+### points-distance.asm
 - in primul rand sunt 2 puncte, deci stim pe ce pozitii sunt in ebx
 - si stim din terste ca mereu a doua valuare si la x si la y, e mai pare ca prima
 - retinem in ecx si edx, x-ul de la primul punct si x-ul de la al doilea punct
@@ -22,7 +22,7 @@
 - pentru calculul lungimii folosim aceiasi pasi ca la x
 - apoi mergem in exit prntru a sari peste 'difx' deoarece am aflat deja lungimea
 
-## road.asm
+### road.asm
 - in principiu folosim aceeasi gandire ca si mai sus doar ca
 - avem grija sa luam pe rand fiecare punct in parte (structura) si sa calculam lungime pentru cate 2 puncte consecutive
 - cu un cuntor vom trece prin toate structurile
@@ -38,7 +38,7 @@
           2. a fost folosit la punctul anterior (a fost folosit la distanta)
 - cand se ajunge la sfarsitul punctelor se iese din for
 
-## is_square.asm
+### is_square.asm
 - facem un contor 0 pentru for (edx)
 - luam un contor pentru a vedea daca e sau nu patrat perfect numarul din vectorul de distante, pe care il facem tot 0 (edi) (se verifica si 0, pt ca e si el patrat perfect)
 - cu 'edi' se merge in 'verificare'
