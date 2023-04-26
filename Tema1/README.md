@@ -1,4 +1,6 @@
-    Main:
+### Ionescu Cristina
+
+## Main:
 
 - initializez arr cu null (a contribuit la verificarea mea, in caz ca nu introduceam elementele bine)
 - aloc memorie pentru un vector "linie" in care voi pune fiecare linie citita
@@ -6,7 +8,7 @@
 - verific ce fel de task trebuie rezolvat prin cautarea in linie a sintaxei "nume_task " (voi pune un spatiu dupa pentru a imi cauta tot cuvantul nu si parti din alte cuvinte)
 - am luat len ca fiind lungimea totala a lui arr
 
-    "Insert":
+ ## Insert:
 - scot din fiecare linie cuvintele pe rand, iau un contor ca sa vad ce tip de cuvant am (luand in cosiderare ca sunt: tip nume numar numar nume);
 - cu ajutorul acestui contor retin cuvintele din linie in niste constante denumite potrivit
             tip= primul caracter din cuvant primul "cuvat" - (ct=1)
@@ -19,33 +21,33 @@
 - pentru data am grija ca lungimea sa fie contorizata pentru a stii cat trebuie siftat data-ul la adaugare
 - apelez add_last
 
-    "Insert_at":
+## Insert_at:
 - folosesc acelasi principiu ca si la "Insert" doar ca am grija sa mai scot un cuvant inainte de a incepe procedura de la "insert"
 - cuvantul scos va fi convertit in int (asa se va lua indexul)
 - apelez add_at
 
-    "Delete_at":
+## Delete_at:
 - scot "cuvantul" de dupa delete
 - il transform in int => asa fac rost de index
 - apelez delete_at
 
-    "Find":
+## Find:
 - procedez ca mai sus pentru a afla indexul
 - apelez find
 
-    "Print":
+## Print:
 -apelez print
 
-    "Exit":
+## Exit:
 -eliberez memoria
 -ies din program fortat
 
 
-    "Add_last":
+## Add_last:
 - daca arr este gol pur si simplu se aloca memorie de marimea structurii apoi se copiaza toate datele din structura in arr
 - daca arr nu e gol la len se va adauga lungimea structurii, apoi structura se va adauga dupa ce exista deja in arr;
 
-    "Add_at":
+## Add_at:
 - daca inexul < 0 se afiseaza orice, in cazul asta 33 XD
 -  pentru index==0 => se insereaza la inceput => tot ce este deja in arr se muta cu dimensiunea structurii si se copiaza structura in locul golit
 - pentru orice alt index:
@@ -59,7 +61,7 @@
     -daca am trecut prin toata structura si indexul nu s-a gasit => structura va fi asezata la final=>doar se aloca memorie mai multa pentru arr si se pun la final elem structurii
 
 
-    "Find":
+## Find:
 - foloseste acelasi principiu ca mai sus doar ca:
     -la index mai < 0 sau > len nu se va afisa nimic
     -in cazul in care structura exista, ok va si = cu 1, apoi se afiseaza tipul din  structura, urmand ca data-ul sa fie luat element cu element.
@@ -67,12 +69,12 @@
     -pentru sume ma inrorc la '\0' si iau cele doua sume, convertindu-le in tipul cerut
 
 
-    "Delete_at"
+## Delete_at
 - daca indexul e mai mare ca nr de structuri se afiseaza 33 
 - daca indexul este bun => se trece prin fiecare structura din arr, cand se gaseste indexul se va calcula lungimea "gaurii" (se retine lundimea structurii)
 - se copiaza ce e dupa gaura, peste gaura si se schimba lungimea lui arr
 
-    "Printf"
+## Printf
 - se foloseste acelasi principiu ca si la afisarea de la find (aici a fost facuta prima daca si schimbata putin pentru a face doar unui element asta)
 - totul se face din structura in strctura, mereu se sare cu 5+lung_data_curent
 
